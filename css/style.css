@@ -6,8 +6,26 @@ h2 {
     width: 20em;
 }
 
-#box {
-    background-color: black;
-    width: 20px;
-    height: 20px;
+.box {
+    width: 70px;
+	height: 70px;
+	background-color: gray;
+	font-size: 300%;
+	text-align: center;
+	display: block;
+	position: absolute;
+	top: 200px;
+	left: 300px;
+    border-radius: 20%;
+}
+
+.goal {
+	width: 100px;
+	height: 100px;
+	background-color: blue;
+	display: block;
+	position: fixed;
+	margin-left: auto;
+	margin-top: auto;
+	border-radius: 100%;
 }
